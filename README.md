@@ -8,34 +8,19 @@ This project was originally developed as part of a technical assignment during a
 Due to confidentiality agreements, I am not permitted to disclose the company name or share the original dataset provided.
 
 To replicate the structure and logic of the original task while respecting data privacy, I used the Faker Python library to generate artificial data.
+
 Please note that every time the notebooks are run locally, a new synthetic dataset will be generated. As a result, the specific interpretations and insights from the original analysis have been removed, since they only applied to the real-world data.
 
 If you are interested in reviewing the original project (under confidentiality), it is available upon request.
 
 
-1. **Data Engineering**:
 
-   - Downloading data from API endpoints
-   - Creating a database with a specially crafted schema and populating it with downloaded data
-   - Developing dedicated layers (views) to separate data used for analysis, reporting and visualization
-
-2. **Data Analysis**:
-
-   - Conducting a comprehensive exploration of flight delays data
-
-3. **BI Reporting and Visualization**:
-
-   - Designing an analytical and reporting system to support future business decision-making
-   - Implementing DASH visualization techniques
-
-
-<img src="https://github.com/pbquandt/Airlines_Delays_Analysis/blob/master/readme_img/note_exe_1.png" alt="notebook example screen shot" width="400"/>
-<img src="https://github.com/pbquandt/Airlines_Delays_Analysis/blob/master/readme_img/note_exe_2.png" alt="notebook example screen shot" width="400"/>
-<img src="https://github.com/pbquandt/Airlines_Delays_Analysis/blob/master/readme_img/note_exe_3.png" alt="notebook example screen shot" width="400"/>
-<img src="https://github.com/pbquandt/Airlines_Delays_Analysis/blob/master/readme_img/note_exe_4.png" alt="notebook example screen shot" width="400"/>
-<img src="https://github.com/pbquandt/Airlines_Delays_Analysis/blob/master/readme_img/DASH_3.png" alt="notebook example screen shot" width="400"/>
-<img src="https://github.com/pbquandt/Airlines_Delays_Analysis/blob/master/readme_img/DASH_1.png" alt="notebook example screen shot" width="400"/>
-
+<img src="https://github.com/pbquandt/Exploring_Random_Property_Markets/blob/master/readme_img/note_exe_1.png" alt="notebook example screen shot" width="400"/>
+<img src="https://github.com/pbquandt/Exploring_Random_Property_Markets/blob/master/readme_img/note_exe_2.png" alt="notebook example screen shot" width="400"/>
+<img src="https://github.com/pbquandt/Exploring_Random_Property_Markets/blob/master/readme_img/note_exe_3.png" alt="notebook example screen shot" width="400"/>
+<img src="https://github.com/pbquandt/Exploring_Random_Property_Markets/blob/master/readme_img/note_exe_4.png" alt="notebook example screen shot" width="400"/>
+<img src="https://github.com/pbquandt/Exploring_Random_Property_Markets/blob/master/readme_img/note_exe_5.png" alt="notebook example screen shot" width="400"/>
+<img src="https://github.com/pbquandt/Exploring_Random_Property_Markets/blob/master/readme_img/note_exe_6.png" alt="notebook example screen shot" width="400"/>
 
 
    
@@ -57,10 +42,10 @@ If you are interested in reviewing the original project (under confidentiality),
 
 ## Table of Contents
 
-1. [N01 Data Creation, Exploration & Cleaning](https://github.com/pbquandt/Exploring_Random_Property_Markets/blob/master/N01_Data_Engineering_API.ipynb)
-2. [N02 Initializing a PostgreSQL database and creating schemas for data exploration](https://github.com/pbquandt/Exploring_Random_Property_Markets/blob/master/N02_Data_Engineering_Initiating_Database.ipynb)
-3. [N03 SQL Queries & Data Visualization](https://github.com/pbquandt/Exploring_Random_Property_Markets/blob/master/N03_Data_Engineering_Populating_Database.ipynb)
-4. [N04 Analysis of a randomly selected city](https://github.com/pbquandt/Exploring_Random_Property_Markets/blob/master/N04_Data_Analysis_p1.ipynb)
+1. [N01 Data Creation, Exploration & Cleaning](https://github.com/pbquandt/Exploring_Random_Property_Markets/blob/master/N01_data_cleaning.ipynb)
+2. [N02 Initializing a PostgreSQL database and creating schemas for data exploration](https://github.com/pbquandt/Exploring_Random_Property_Markets/blob/master/N02_initiating_database.ipynb)
+3. [N03 SQL Queries & Data Visualization](https://github.com/pbquandt/Exploring_Random_Property_Markets/blob/master/N03_data_visualisation.ipynb)
+4. [N04 Analysis of a randomly selected city](https://github.com/pbquandt/Exploring_Random_Property_Markets/blob/master/N04_random_city_data_exploration.ipynb)
 
 
 ## Installation
@@ -70,7 +55,7 @@ To run **Exploring Random Property Markets** project locally, follow these steps
 1. Create a dedicated virtual environment (optional)
 2. Clone the repository:
    ```bash
-   git clone https://github.com/username/Exploring_Random_Property_Markets.git
+   git clone https://github.com/pbquandt/Exploring_Random_Property_Markets.git
    ```
 3. Navigate to the project directory:
    ```bash
@@ -103,9 +88,7 @@ To run **Exploring Random Property Markets** project locally, follow these steps
 
 ## Potential Issues 
 
-Since the project was done on a Mac, I haven't had the chance to test it on a PC.
-Although I took appropriate steps, such as dynamically determining the working folder path in the `project_dir.py` file and using `{os.path.sep}` for path separators, potential conflicts between Mac and PC environments can still occur.
-If you encounter any issues on your PC, please let me know or, ideally, follow the steps outlined in the 'Contributing' section below.
+This project was done on a Mac. If you would like to run it on a PC, please make sure to appropriately adjust the path separators.
 
 
 ## Contributing
@@ -122,7 +105,6 @@ If you'd like to contribute to **Exploring Random Property Markets**, follow the
 8. Submit a pull request
 
 
-
 ## Authors and Acknowledgments
 
 **Exploring Random Property Markets** was created by [**Piotr B. Quandt**](https://github.com/pbquandt)
@@ -131,8 +113,10 @@ If you'd like to contribute to **Exploring Random Property Markets**, follow the
 - Cover image of this document - [
 Abdullah Ghatasheh](https://www.pexels.com/photo/aerial-shot-of-city-1666362/)
 
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
 
 ## Contact
 For questions or comments, please contact [**Piotr B. Quandt**](https://github.com/pbquandt) at [pbquandt@gmail.com](mailto:pbquandt@gmail.com)
