@@ -20,8 +20,6 @@ If you are interested in reviewing the original project (under confidentiality),
 <img src="https://github.com/pbquandt/Exploring_Random_Property_Markets/blob/master/readme_img/note_exe_3.png" alt="notebook example screen shot" width="400"/>
 <img src="https://github.com/pbquandt/Exploring_Random_Property_Markets/blob/master/readme_img/note_exe_4.png" alt="notebook example screen shot" width="400"/>
 <img src="https://github.com/pbquandt/Exploring_Random_Property_Markets/blob/master/readme_img/note_exe_5.png" alt="notebook example screen shot" width="400"/>
-<img src="https://github.com/pbquandt/Exploring_Random_Property_Markets/blob/master/readme_img/note_exe_6.png" alt="notebook example screen shot" width="400"/>
-
 
    
 **Main Tech Stack**:
